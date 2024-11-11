@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard with Sidebar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="sidebar" class="sidebar">
+    <!-- <div class="hamburger" onclick="toggleMenu()">
+      &#9776; -->
+      <div class="chevron" onclick="toggleSidebar()">x</div>
+    <div class="sidebar-header">
+      <h1>Menu</h1>
+    </div>
+    <ul class="sidebar-links">
+      <li><a href="#" onclick="navigateTo('home')">Home</a></li>
+      <li><a href="#" onclick="navigateTo('profile')">Profile</a></li>
+      <li><a href="#" onclick="navigateTo('settings')">Settings</a></li>
+      <li><a href="#" onclick="logout()">Logout</a></li>
+    </ul>
+  </div>
+
+  <div id="main-content" class="main-content">
+    <div class="hamburger" onclick="toggleSidebar()">
+      &#9776; 
+    </div>
+    
+    <div class="content">
+      <h1>Welcome to the Dashboard</h1>
+      <p>This is your main dashboard content.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

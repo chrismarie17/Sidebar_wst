@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+.slide{
+    height: 100%;
+    width: 180px;
+    position: absolute;
+    background-color: #fff;
+    transition: 0.5s ease;
+}
+h1{
+    color: rgb(154, 53, 140);
+    font-weight: 800;
+    text-align: right;
+    padding: 10px 0;
+    padding-right: 30px;
+    pointer-events: none;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    color: black;
+    font-weight: 500;
+    padding: 5px 0;
+    display:block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+
+ul li a i{
+    width: 40px;
+    text-align: center;
+}
+/* .hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 10px;
+    color: #333;
+    z-index: 1100;
+} */
